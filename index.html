@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Mehran Gholizadeh">
+        <meta name="description" content="TikTokToe Game">
+        <meta name="keywords" content="TikTokToegame,duz,html,css,js and  ...">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div style="width:100%; height:400px;">
+            <img src="xqlgfA.jpg" alt="">
+            <div id="glassy-table">
+                <h3 style="color: white;margin-left: 100;font-size: 30px;" id="result"></h3>
+                <table>
+                    <tr>
+                        <td>
+                            <button onclick="show_index(0,0)" class="cells"></button>
+                        </td>
+                        <td>
+                            <button onclick="show_index(0,1)" class="cells"></button>
+                        </td>
+                        <td>
+                            <button onclick="show_index(0,2)" class="cells"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="show_index(1,0)" class="cells"></button>
+                        </td>
+                        <td>
+                            <button onclick="show_index(1,1)" class="cells"></button>
+                        </td>
+                        <td>
+                            <button onclick="show_index(1,2)" class="cells"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="show_index(2,0)" class="cells"></button>
+                        </td>
+                        <td>
+                            <button onclick="show_index(2,1)" class="cells"></button>
+                        </td>
+                        <td>
+                            <button onclick="show_index(2,2)" class="cells"></button>
+                        </td>
+                    </tr>
+                </table>
+                <input type="radio" name="player" id="player" onclick="allplayers()"><b style="color: white;font-size:20px;">1 VS 1</b>
+                <input type="radio" name="player" id="Computer" onclick="playwithbot()"><b style="color: white; font-size: 20px;">Computer</b>
+                <button id="btn-reset" onclick="restart()">
+                    New Game
+                </button>
+               
+                <div class="scores">
+                    <h4 style=background-color:#277>Scoreboard</h4>
+                    <p>Score X=<b id="score-x">0</b></p>
+                    <p>Score O=<b id="score-o">0</b></p>
+                    <p>Draw=<b id="draw">0</b></p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

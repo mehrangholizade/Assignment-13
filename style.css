@@ -1,0 +1,63 @@
+.cells
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    font-size: xx-large;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+    background:rgba(90, 74, 82, 0.5);
+
+
+}
+.X{
+    background-color: pink;
+    color: darkred;
+}
+.O{
+    background-color: skyblue;
+    color: darkblue;
+}
+#glassy-table{
+    position: absolute;
+    top: 200px;
+    width:50%;
+   margin-left: 40%;
+}
+#btn-reset {
+    position: relative;
+    top: 60px;
+    right: 200;
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    border: 1px solid dodgerblue;
+    box-shadow: 0px 8px 15px rgba(50, 100, 200, 0.5);
+    margin: auto;
+    border-radius: 4px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.scores
+{
+   
+    position: absolute;
+    background-color: darkblue;
+    color: white;
+    width: 150;
+    text-align: center;
+    top: 120;
+    left: -180;
+    font-size: x-large;
+    font-family:cursive;
+}
+#player{
+    margin-top: 20px;
+    margin-left: 40;
+}
+#computer
+{
+    margin-left:50px;
+}
